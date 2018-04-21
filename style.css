@@ -1,0 +1,186 @@
+* {
+	font-family: Helvetica Neue;
+}
+img {
+	width: 80px;
+}
+
+.title-logo {
+	display: inline-flex;
+	width: 100%;
+}
+
+#banner {
+	position: relative;
+	height: 100px;
+	width: unset;
+}
+
+#cb-sh {
+	
+	font-size: 30px;
+	margin-top: 2%;
+	margin-left: 15%;
+	position: absolute;
+	color: white;
+}
+
+.first,.third,.fourth {
+	display: flex;
+}
+
+.first p,.third p {
+	color: #003557;
+}
+
+.second p,.fourth p {
+	color: #EAF3FA;
+}
+
+.icon-containers {
+	text-align: center;
+}
+
+#test {
+	background-color: #003557;
+    border: 1px solid #003557;
+    height: 180px;
+    margin-top: 1.5%;
+}
+
+#active-freelancers {
+	width: 20%;
+}
+
+#ongoing-gross {
+
+}
+
+.icon-containers > div {
+	display: inline-flex;
+	position: relative;
+}
+
+#ongoing-billable, #ongoing-gross {
+	width: 40%;
+}
+
+#total-hours,#total-projects,#total-months {
+	width: 33%;
+}
+
+#total-gross {
+	width: 40%;
+	padding-top: 1%;
+}
+
+#total-billed {
+	color: #EAF3FA;
+	margin: 0;
+	float: right;
+	/*border: 2px solid white;*/
+}
+
+#tgp {
+	margin: -8% 0 0 5%;	
+}
+
+#info {
+	border: 2px solid orange;
+}
+
+#gray-yen {
+	
+}
+
+#info p {
+	display: block;
+	margin: 0;
+	border: 2px solid pink;
+}
+
+
+.number {
+	font-size: 60px;
+	color: #003557;
+	margin-top: 25%;
+	margin-left: 10%;
+}
+
+.first {
+	background-color: #EAF3FA;
+}
+
+.second {
+	background-color: #5C6477;
+}
+
+#the-graph>img {
+	display: block;
+	width: 100%;
+}
+
+.third {
+	background-color: #EAF3FA;
+}
+
+.fourth {
+	background-color: #5C6477;
+}
+
+.fourth .number {
+	color: #EAF3FA;
+}
+
+#special {
+	width: 60%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+#clock {
+	width: 20%;
+	margin: 2% auto;
+}
+
+#years {
+	margin-left: 0;
+    margin-top: 2%;
+	font-size: 35px;
+	width: 100%;
+	display: block;
+}
+
+#special p {
+	display: block;
+}
+
+.lower-calendar {
+	width: 20%;
+	margin-top: 10%;
+}
+
+.calendar-date {
+	width: 50%;
+	margin: 0 15%;
+}
+
+#calendar-date-outer {
+	position: relative;
+	width: 100%;
+}
+
+#calendar-date-inner {
+	position: absolute;
+	font-size: 60px;
+	top: 12.5%;
+	left: 8%;
+}
+	
+	
+
+#date {
+	font-size: 30px;
+	margin-top: 0;
+	margin-left: 0;
+}

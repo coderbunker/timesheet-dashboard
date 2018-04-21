@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1660 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaf3fa;
+        font-size: 30px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+    </style>
+  </defs>
+  <g id="Group_30" data-name="Group 30" transform="translate(-140 -1047)">
+    <text id="Jan." class="cls-1" transform="translate(1424 1076)"><tspan x="0" y="0">Jan.</tspan></text>
+    <text id="Dec." class="cls-1" transform="translate(1315 1076)"><tspan x="0" y="0">Dec.</tspan></text>
+    <text id="Nov." class="cls-1" transform="translate(1209 1076)"><tspan x="0" y="0">Nov.</tspan></text>
+    <text id="Oct." class="cls-1" transform="translate(1103 1076)"><tspan x="0" y="0">Oct.</tspan></text>
+    <text id="Sept." class="cls-1" transform="translate(989 1076)"><tspan x="0" y="0">Sept.</tspan></text>
+    <text id="Aug." class="cls-1" transform="translate(887 1076)"><tspan x="0" y="0">Aug.</tspan></text>
+    <text id="Jul." class="cls-1" transform="translate(786 1076)"><tspan x="0" y="0">Jul.</tspan></text>
+    <text id="Jun." class="cls-1" transform="translate(675 1076)"><tspan x="0" y="0">Jun.</tspan></text>
+    <text id="May" class="cls-1" transform="translate(568 1076)"><tspan x="0" y="0">May</tspan></text>
+    <text id="Apr." class="cls-1" transform="translate(463 1076)"><tspan x="0" y="0">Apr.</tspan></text>
+    <text id="Mar." class="cls-1" transform="translate(354 1076)"><tspan x="0" y="0">Mar.</tspan></text>
+    <text id="Feb." class="cls-1" transform="translate(246 1076)"><tspan x="0" y="0">Feb.</tspan></text>
+    <text id="Jan.-2" data-name="Jan." class="cls-1" transform="translate(140 1076)"><tspan x="0" y="0">Jan.</tspan></text>
+    <text id="Feb.-2" data-name="Feb." class="cls-1" transform="translate(1530 1076)"><tspan x="0" y="0">Feb.</tspan></text>
+    <text id="Mar.-2" data-name="Mar." class="cls-1" transform="translate(1638 1076)"><tspan x="0" y="0">Mar.</tspan></text>
+    <text id="Apr.-2" data-name="Apr." class="cls-1" transform="translate(1747 1076)"><tspan x="0" y="0">Apr.</tspan></text>
+  </g>
+</svg>
