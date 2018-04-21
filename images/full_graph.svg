@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1683 298">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #eaf3fa;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <g id="Group_45" data-name="Group 45" transform="translate(-130 -759)">
+    <g id="Group_43" data-name="Group 43">
+      <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-1" width="78" height="149" transform="translate(130 908)"/>
+      <rect id="Rectangle_50-2" data-name="Rectangle 50" class="cls-1" width="78" height="56" transform="translate(237 1001)"/>
+      <rect id="Rectangle_50-3" data-name="Rectangle 50" class="cls-1" width="78" height="176" transform="translate(344 881)"/>
+      <rect id="Rectangle_50-4" data-name="Rectangle 50" class="cls-1" width="78" height="127" transform="translate(451 930)"/>
+      <rect id="Rectangle_50-5" data-name="Rectangle 50" class="cls-1" width="78" height="203" transform="translate(558 854)"/>
+      <rect id="Rectangle_50-6" data-name="Rectangle 50" class="cls-1" width="78" height="149" transform="translate(665 908)"/>
+      <rect id="Rectangle_50-7" data-name="Rectangle 50" class="cls-1" width="78" height="176" transform="translate(772 881)"/>
+      <rect id="Rectangle_50-8" data-name="Rectangle 50" class="cls-1" width="78" height="88" transform="translate(879 969)"/>
+      <rect id="Rectangle_50-9" data-name="Rectangle 50" class="cls-1" width="78" height="224" transform="translate(986 833)"/>
+      <rect id="Rectangle_50-10" data-name="Rectangle 50" class="cls-1" width="78" height="176" transform="translate(1093 881)"/>
+      <rect id="Rectangle_50-11" data-name="Rectangle 50" class="cls-1" width="78" height="253" transform="translate(1200 804)"/>
+      <rect id="Rectangle_50-12" data-name="Rectangle 50" class="cls-1" width="78" height="176" transform="translate(1307 881)"/>
+      <rect id="Rectangle_50-13" data-name="Rectangle 50" class="cls-1" width="78" height="224" transform="translate(1414 833)"/>
+      <rect id="Rectangle_50-14" data-name="Rectangle 50" class="cls-1" width="78" height="112" transform="translate(1521 945)"/>
+      <rect id="Rectangle_50-15" data-name="Rectangle 50" class="cls-1" width="78" height="242" transform="translate(1628 815)"/>
+    </g>
+    <g id="Group_44" data-name="Group 44">
+      <rect id="Rectangle_50-16" data-name="Rectangle 50" class="cls-2" width="78" height="298" transform="translate(1735 759)"/>
+    </g>
+  </g>
+</svg>
