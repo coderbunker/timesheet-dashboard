@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=425, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/v1/775700/coderbunker-door-only-transparent_gueiif.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" media="(max-width: 425px)" href="mobileAttempt.css">
 	<title>CoderBunker Timesheet Data</title>
 </head>
 <body>
@@ -17,7 +19,7 @@
 		<!--Begin 'first' container-->
 		<div class="first">
 			<div class="icon-containers" id="active-freelancers">
-				<div>
+				<div class="icon-container-inner">
 					<img id="freelancer" src="./images/blue_singleUser.svg"/>
 					<div class="number" id="number-active">14</div>
 				</div>
@@ -25,7 +27,7 @@
 			</div>
 			<div id="verticle-divider"></div>
 			<div class="icon-containers" id="ongoing-billable">
-				<div>
+				<div class="icon-container-inner">
 					<img id="chart" src="images/blue_chart.svg"/>
 					<div class="number">8</div>
 				</div>
@@ -33,7 +35,7 @@
 			</div>
 			<div id="verticle-divider"></div>
 			<div class="icon-containers" id="ongoing-gross">
-				<div>
+				<div class="icon-container-inner">
 					<img id="blue-yen" src="images/blue_yen.svg"/>
 					<div class="number" id="gross">315,045</div>
 				</div>
@@ -47,8 +49,8 @@
 		<div class="second">
 		  <div class="icon-containers" id="total-gross">
 			<img id="gray-yen" src="images/gray_yen.svg"/>
-				<div class="number" id="total-billed">1,896,000</div>
-				<p id="tgp">Total Gross Billed(RMB)</p>
+			<div class="number" id="total-billed">1,896,000</div>
+			<p id="tgp">Total Gross Billed(RMB)</p>
 		  </div>
 			<!--+=+=+=+=+=+=+=+=+=+=+=+=+-->	
 		  <div class="icon-containers" id="the-graph">
@@ -62,7 +64,7 @@
 		<!--Begin 'third' container-->
 		<div class="third">
 		  <div class="icon-containers" id="total-hours">
-		  	<div>
+		  	<div class="icon-container-inner">
 				<img src="images/blue_multiUser.svg">
 				<div class="number">50</div>
 			</div>
@@ -72,7 +74,7 @@
 		  <div id="verticle-divider"></div>
 	  		<!--+=+=+=+=+=+=+=+=+-->
 		  <div class="icon-containers" id="total-projects">
-		  	<div>
+		  	<div class="icon-container-inner">
 			  	<img src="images/blue_chart.svg">
 			  	<div class="number">22</div>
 		  	</div>
@@ -82,7 +84,7 @@
 		  <div id="verticle-divider"></div>
 	  		<!--+=+=+=+=+=+=+=+=+-->
 		  <div class="icon-containers" id="total-months">
-		  	<div>
+		  	<div class="icon-container-inner">
 				<img src="images/blue_calendar:clock.svg">
 				<div class="number">56</div>
 			</div>
