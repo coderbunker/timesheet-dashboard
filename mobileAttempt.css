@@ -42,7 +42,7 @@ img {
 	box-shadow: 5px 5px 5px rgb(38, 38, 38);
 	width: 96%;
 	float: right;
-	padding-top: 10%;
+	padding-top: 0%;
 	margin-top: -9%;
 	padding-right: 2%;
 	padding-bottom: 2%;
@@ -55,7 +55,7 @@ img {
 	background-color: #EAF3FA;
 	box-shadow: 5px 5px 5px rgb(38, 38, 38);
 	width: 98%;
-	height: 110px;
+	height: 8em;
 	float: left;
 	padding-top: 10%;
     margin-top: -8%;
@@ -68,9 +68,9 @@ img {
     background-color: #5C6477;
     box-shadow: 5px 5px 5px rgb(38, 38, 38);
     width: 98%;
-    height: 160px;
+    height: 12em;
     float: right;
-    padding-top: 8%;
+    padding-top: 2.5em;
     margin-top: -7%;
     position: relative;
     z-index: -4;
@@ -78,7 +78,7 @@ img {
 
 .first p,.third p {
 	color: #003557;
-	margin-top: 2%;
+	margin: -4% 2% 0% 2%;
 	font-size: 70%;
 }
 
@@ -120,7 +120,7 @@ img {
 }
 
 .icon-containers {
-	height: 90px;
+	/*height: 90px;*/
 	text-align: center;
 	padding: 0 0 0 1%;
 }
@@ -159,20 +159,22 @@ img {
 }
 
 #gray-yen {
-	float: left;
-	margin: 1%;
+	position: relative;
+    top: 3em;
 }
 
 #total-billed {
 	color: #EAF3FA;
-	margin: 0 2%;
-	float: left;
+    position: relative;
+    top: -1em;
+    left: 2.5em;
 }
 
 #tgp {
 	position: relative;
-    top: 20%;
-    right: 35%;
+    bottom: 1em;
+    left: 3.3em;
+    width: 110%;
 }
 
 .fourth p {
@@ -184,18 +186,24 @@ img {
 #the-graph {
 	width: 98%;
 	margin: 0 auto;
+	padding-bottom: 0.5%;
+	padding-right: 1%;
 }
 
 #the-graph>img {
 	display: block;
-	width: 100%;
+	width: 102%;
+	margin-bottom: -2%;
 }
 
 #spacer {
-	border: 1px solid #EAF3FA;
+	border: .5px solid #EAF3FA;
 	background-color: #EAF3FA;
-	width: 100%;
-	height: 0.5px;
+	width: 102%;
+}
+
+#months {
+
 }
 
 .fourth .number {
@@ -215,7 +223,8 @@ img {
 
 #years {
 	margin-left: 0;
-    margin-top: 2%;
+    margin-top: -1%;
+    font-size: 1em;
     width: 100%;
     display: block;
 }
@@ -227,12 +236,13 @@ img {
 
 #special p {
 	display: block;
+	font-size: 1em;
+    margin-top: 1%;
 }
 
 .lower-calendar {
 	width: 15%;
-	/*margin-top: 10%;
-	margin-left: 1%;*/
+	margin: 10% 2% 0% 2%;
 }
 
 .calendar-date {
@@ -242,7 +252,8 @@ img {
 
 #calendar-date-outer {
 	position: relative;
-    width: 75%;
+	right: 38%;
+    width: 3em;
     height: 50px;
 }
 
@@ -250,13 +261,19 @@ img {
 	position: absolute;
     font-size: 26px;
     top: 23%;
-    left: 11%;
+    left: -2%;
 }
 	
 #date {
 	font-size: 10px;
     margin-top: 0;
     margin-left: 0;
-    position: unset;
-    display: unset;
+    position: relative;
+    top: -1em;
+}
+
+#lowest-p {
+	font-size: 2%;
+    position: relative;
+    top: -2em;
 }
