@@ -1,0 +1,261 @@
+* {
+	font-family: Helvetica Neue;
+}
+
+img {
+	width: 100px;
+}
+
+#blue-yen {
+	width: 80px;
+}
+
+.title-logo {
+	display: inline-flex;
+	width: 100%;
+}
+
+#banner {
+	position: relative;
+	height: 130px;
+	width: unset;
+}
+
+#cb-sh {
+	font-size: 50px;
+    margin-top: 1.5%;
+	margin-left: 15%;
+	position: absolute;
+	color: white;
+}
+
+.first {
+	display: flex;
+	background-color: #EAF3FA;
+	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	width: 98%;
+	float: left;
+	position: relative;
+	padding-right: 1%;
+	z-index: 1;
+}
+
+.second {
+	background-color: #5C6477;
+	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	width: 96%;
+	height: 38%;
+	float: right;
+	padding-top: 0%;
+	margin-top: -9%;
+	padding-right: 2%;
+	padding-left: -1%;
+	padding-bottom: .5%;
+	position: relative;
+	z-index: -1;
+}
+
+.third {
+	display: flex;
+	background-color: #EAF3FA;
+	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	width: 98%;
+	float: left;
+	padding-top: 7%;
+    margin-top: -7%;
+    position: relative;
+    z-index: -2;
+}
+
+.fourth {
+	display: flex;
+	background-color: #5C6477;
+	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	width: 98%;
+	float: right;
+	padding-top: 8%;
+    margin-top: -7%;
+    position: relative;
+    z-index: -4;
+    
+}
+
+.first p,.third p {
+	color: #003557;
+}
+
+.second p,.fourth p {
+	color: #EAF3FA;
+}
+
+.first .number {
+	font-size: 50px;
+	color: #003557;
+	margin-top: 80px;
+    margin-left: 10px;
+}
+
+.second .number {
+	font-size: 50px;
+	color: #003557;
+	margin-top: 38%;
+	margin-left: 10%;
+}
+
+.third .number {
+	font-size: 50px;
+	color: #003557;
+	margin-top: 38%;
+	margin-left: 10%;
+}
+
+#pointer {
+	width: 50px;
+	height: 50px;
+	background-color: #EAF3FA;
+	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	position: absolute;
+	right: 30px;
+    bottom: -22px;
+	transform: rotate(45deg);
+	z-index: -1;
+}
+
+.icon-containers {
+	text-align: center;
+}
+
+#verticle-divider {
+	background-color: #003557;
+    border: 1px solid #003557;
+    height: 165px;
+    margin-top: 1.5%;
+}
+
+#active-freelancers {
+	width: 20%;
+}
+
+.icon-containers > div {
+	display: inline-flex;
+	position: relative;
+}
+
+#ongoing-billable,#ongoing-gross {
+	width: 40%;
+}
+
+#total-hours,#total-projects,#total-months {
+	width: 33%;
+}
+
+#total-gross {
+	position: relative;
+    width: 60%;
+    padding-top: 1%;
+    top: 1em;
+    left: 1em;
+}
+
+#total-billed {
+	color: #EAF3FA;
+	position: relative;
+    bottom: 1.5em;
+    right: 2em;
+}
+
+#tgp {
+	position: relative;
+    top: -4em;
+    right: 3em;
+}
+
+#gray-yen {
+	position: relative;
+    left: -4em;
+    bottom: -1em;
+}
+
+#the-graph {
+	width: 98%;
+	margin: 0 auto;
+}
+
+#the-graph>img {
+	display: block;
+	width: 100%;
+}
+
+#spacer {
+	border: 1px solid #EAF3FA;
+	background-color: #EAF3FA;
+	width: 100%;
+	height: 0.5px;
+}
+
+.fourth .number {
+	color: #EAF3FA;
+}
+
+#special {
+	width: 60%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+#clock {
+	width: 17.5%;
+	margin: 2% auto;
+}
+
+#years {
+	margin-left: 0;
+    margin-top: 2%;
+	font-size: 35px;
+	width: 100%;
+	display: block;
+}
+
+#time {
+	font-size: 300%;
+	margin: 0;
+}
+
+#special p {
+	display: block;
+}
+
+.lower-calendar {
+	width: 20%;
+	margin-top: 10%;
+	margin-left: 1%;
+}
+
+.calendar-date {
+	width: 50%;
+	margin: 0 15%;
+}
+
+#calendar-date-outer {
+	position: relative;
+	width: 100%;
+}
+
+#calendar-date-inner {
+	position: absolute;
+	font-size: 60px;
+	top: 28.5%;
+    left: 22.5%;
+}
+	
+#date {
+	font-size: 30px;
+	margin-top: 0;
+	margin-left: 0;
+}
+#calendar-date-inner {
+	position: absolute;
+	font-size: 53px;
+	top: 32%;
+	left: 18%;
+}
