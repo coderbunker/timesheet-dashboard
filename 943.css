@@ -34,25 +34,26 @@ img {
 	background-color: #EAF3FA;
 	box-shadow: 5px 5px 5px rgb(38, 38, 38);
 	width: 98%;
-	float: left;
-	position: relative;
-	padding-right: 1%;
-	z-index: 1;
+	position: absolute;
+    top: -96px;
+    left: 0.3em;
+    padding-right: 1%;
+    z-index: 1;
 }
 
 .second {
 	background-color: #5C6477;
+	position: relative;
 	box-shadow: 5px 5px 5px rgb(38, 38, 38);
 	width: 96%;
 	height: 0%;
 	float: right;
-	padding-top: 0%;
-	margin-top: -9%;
-	padding-right: 2%;
-	padding-left: -1%;
-	padding-bottom: .5%;
-	position: relative;
-	z-index: -1;
+	padding-top: 27px;
+    margin-top: 5em;
+    padding-right: 2%;
+    padding-left: -1%;
+    padding-bottom: .5%;
+    z-index: -1;
 }
 
 .third {
@@ -83,11 +84,16 @@ img {
 
 .first p,.third p {
 	color: #003557;
-	margin: -19px;
+	width: 95%;
+    margin: -34px 0 13px 0
 }
 
 .second p,.fourth p {
 	color: #EAF3FA;
+}
+
+#karl {
+	color: #003557;
 }
 
 .first .number {
@@ -151,28 +157,27 @@ img {
 	width: 33%;
 }
 
+#small-container {
+	display: flex;
+    flex-direction: column;
+}
+
 #total-gross {
-	width: 40%;
-	padding-top: 1%;
+	text-align: unset;
+    display: inline-flex;
+    padding-top: 1%;
 }
 
 #total-billed {
 	color: #EAF3FA;
-    position: relative;
-    top: -1em;
-    left: -2em;
 }
 
 #tgp {
-	position: relative;
-    top: -2em;
-    right: 1em;
+	
 }
 
 #gray-yen {
-	position: relative;
-    left: -3em;
-    bottom: -1em;
+	
 }
 
 #the-graph {

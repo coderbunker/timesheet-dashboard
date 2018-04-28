@@ -31,28 +31,29 @@ img {
 
 .first {
 	display: flex;
-	background-color: #EAF3FA;
-	box-shadow: 5px 5px 5px rgb(38, 38, 38);
-	width: 98%;
-	float: left;
-	position: relative;
-	padding-right: 1%;
-	z-index: 1;
+    background-color: #EAF3FA;
+    box-shadow: 5px 5px 5px rgb(38, 38, 38);
+    width: 98%;
+    position: absolute;
+    top: -155px;
+    left: 0.5em;
+    padding-right: 1%;
+    z-index: 1;
 }
 
 .second {
 	background-color: #5C6477;
-	box-shadow: 5px 5px 5px rgb(38, 38, 38);
-	width: 96%;
-	height: 38%;
-	float: right;
-	padding-top: 0%;
-	margin-top: -9%;
-	padding-right: 2%;
-	padding-left: -1%;
-	padding-bottom: .5%;
-	position: relative;
-	z-index: -1;
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(38, 38, 38);
+    width: 96%;
+    height: 38%;
+    float: right;
+    padding-top: 25px;
+    margin-top: 9em;
+    padding-right: 2%;
+    padding-left: -1%;
+    padding-bottom: .5%;
+    z-index: -1;
 }
 
 .third {
@@ -86,6 +87,10 @@ img {
 
 .second p,.fourth p {
 	color: #EAF3FA;
+}
+
+#karl {
+	color: #003557;
 }
 
 .first .number {
@@ -149,32 +154,31 @@ img {
 	width: 33%;
 }
 
+#yen-div {
+
+}
+
+#small-container {
+	display: flex;
+    flex-direction: column;
+}
+
 #total-gross {
-	position: relative;
-    width: 60%;
+	text-align: unset;
+    display: inline-flex;
     padding-top: 1%;
-    top: 1em;
-    left: 1em;
 }
 
 #total-billed {
 	color: #EAF3FA;
-	position: relative;
-    bottom: 3.5em;
-    right: 5em;
 }
 
 #tgp {
-	position: relative;
-    top: -7em;
-    right: 8em;
     font-size: 20px;
 }
 
 #gray-yen {
-	position: relative;
-    left: -11em;
-    bottom: 5em;
+
 }
 
 #the-graph {
