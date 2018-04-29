@@ -23,10 +23,11 @@ img {
 
 #cb-sh {
 	font-size: 2em;
-    margin-top: 4.5%;
-	margin-left: 15%;
-	position: absolute;
-	color: white;
+    line-height: 100px;
+    margin-top: 0;
+    margin-left: 10%;
+    position: absolute;
+    color: white;
 }
 
 .first {
@@ -35,7 +36,7 @@ img {
 	box-shadow: 5px 5px 5px rgb(38, 38, 38);
 	width: 98%;
 	position: absolute;
-    top: -96px;
+    top: -113px;
     left: 0.3em;
     padding-right: 1%;
     z-index: 1;
@@ -49,7 +50,7 @@ img {
 	height: 0%;
 	float: right;
 	padding-top: 27px;
-    margin-top: 5em;
+    margin-top: 6em;
     padding-right: 2%;
     padding-left: -1%;
     padding-bottom: .5%;
@@ -106,7 +107,7 @@ img {
 .second .number {
 	font-size: 2em;
 	color: #003557;
-	margin-top: 38%;
+	margin-top: 37px;
 	margin-left: 10%;
 }
 
@@ -136,8 +137,8 @@ img {
 #verticle-divider {
 	background-color: #003557;
     border: 1px solid #003557;
-    height: 9em;
-    margin-top: 1.5%;
+    height: 8em;
+    margin-top: 1%;
 }
 
 #active-freelancers {
@@ -166,18 +167,20 @@ img {
 	text-align: unset;
     display: inline-flex;
     padding-top: 1%;
+    width: 100%;
 }
 
 #total-billed {
 	color: #EAF3FA;
+	margin-left: 5%;
 }
 
 #tgp {
 	
 }
 
-#gray-yen {
-	
+#yen-div {
+	margin-left: 3%;
 }
 
 #the-graph {

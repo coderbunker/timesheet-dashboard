@@ -22,11 +22,12 @@ img {
 }
 
 #cb-sh {
-	font-size: 50px;
-    margin-top: 1.5%;
-	margin-left: 15%;
-	position: absolute;
-	color: white;
+	font-size: 3em;
+    line-height: 100px;
+    margin-top: 0;
+    margin-left: 10%;
+    position: absolute;
+    color: white;
 }
 
 .first {
@@ -49,7 +50,7 @@ img {
     height: 38%;
     float: right;
     padding-top: 25px;
-    margin-top: 9em;
+    margin-top: 152px;
     padding-right: 2%;
     padding-left: -1%;
     padding-bottom: .5%;

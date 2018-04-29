@@ -23,11 +23,12 @@ img {
 }
 
 #cb-sh {
-	font-size: 20px;
-    margin-top: 1%;
-	margin-left: 15%;
-	position: absolute;
-	color: white;
+	font-size: 1.3em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-left: 10%;
+    position: absolute;
+    color: white;
 }
 
 .first {
@@ -141,12 +142,13 @@ img {
 #verticle-divider {
 	background-color: #003557;
     border: 0.5px solid #003557;
-    height: 85px;
-    margin-top: 3.5%;
+    height: 75px;
+    margin-top: 1%;
 }
 
 #active-freelancers {
 	width: 33%;
+	padding: 1%;
 }
 
 .icon-containers > div {
@@ -156,6 +158,7 @@ img {
 
 #ongoing-billable,#ongoing-gross {
 	width: 40%;
+	padding: 1%;
 }
 
 #total-hours,#total-projects,#total-months {
@@ -175,10 +178,11 @@ img {
 
 #total-billed {
 	color: #EAF3FA;
+	margin-top: 42px;
 }
 
 #gray-yen {
-	
+	width: 40px;
 }
 
 #tgp {
@@ -278,10 +282,13 @@ img {
     margin-left: 0;
     position: relative;
     top: -1em;
+    width: 110%;
 }
 
 #lowest-p {
+	width: 145%;
 	font-size: 2%;
     position: relative;
     top: -2em;
+    left: -12px;
 }
