@@ -1,15 +1,13 @@
-img {
+/*img {
 	width: 50px;
-}
+}*/
 
 #freelancer,#chart,#blue-yen {
-	width: 50px;
-	height: 50px;
-}
-
-/*#blue-yen {
 	width: 35px;
-}*/
+    height: 35px;
+    display: flex;
+    margin: 0 auto;
+}
 
 .title-logo {
 	display: inline-flex;
@@ -50,7 +48,7 @@ img {
 	width: 96%;
 	height: 0%;
 	float: right;
-	padding-top: 15%;
+	padding-top: 23%;
     margin-top: 3em;
     padding-right: 2%;
     padding-left: -1%;
@@ -63,10 +61,10 @@ img {
 	background-color: #EAF3FA;
 	box-shadow: 5px 5px 5px rgb(38, 38, 38);
 	width: 98%;
-	height: 8em;
+	height: 7em;
 	float: left;
-	padding-top: 10%;
-    margin-top: -8%;
+	padding-top: 11%;
+    margin-top: -7%;
     position: relative;
     z-index: -2;
 }
@@ -78,7 +76,7 @@ img {
     width: 98%;
     height: 12em;
     float: right;
-    padding-top: 2.5em;
+    padding-top: 10%;
     margin-top: -7%;
     position: relative;
     z-index: -4;
@@ -96,6 +94,8 @@ img {
 
 #karl {
 	color: #003557;
+	display: flex;
+	height: 42px;
 }
 
 .first .number {
@@ -106,15 +106,18 @@ img {
 }
 
 .second .number {
-	font-size: 25px;
-	color: #003557;
+	font-size: 20px;
+    color: #003557;
+    display: flex;
+    height: 22px;
+    margin: 0 auto;
 }
 
 .third .number {
-	font-size: 30px;
+	font-size: 22px;
 	color: #003557;
-	margin-top: 27px;
-	margin-left: 10%;
+	margin: 0 auto;
+	
 }
 
 #pointer {
@@ -135,6 +138,18 @@ img {
 	padding: 0 0 0 1%;
 }
 
+#number-active {
+
+}
+
+#number-ongoing {
+
+}
+
+#gross {
+
+}
+
 .icon-container-inner {
 	height: 72%;
 }
@@ -142,18 +157,23 @@ img {
 #verticle-divider {
 	background-color: #003557;
     border: 0.5px solid #003557;
-    height: 75px;
+    height: 100px;
     margin-top: 1%;
 }
 
 #active-freelancers {
 	width: 33%;
-	padding: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon-containers > div {
-	display: inline-flex;
-	position: relative;
+	display: flex;
+    
+    flex-direction: column;
+    height: 4em;
+    
 }
 
 #ongoing-billable,#ongoing-gross {
@@ -187,7 +207,7 @@ img {
 }
 
 #gray-yen {
-	width: 40px;
+	width: 35px;
 }
 
 #tgp {
@@ -203,20 +223,28 @@ img {
 #the-graph {
 	width: 98%;
 	margin: 0 auto;
-	padding-bottom: 2.5%;
+	padding-bottom: 0.5%;
 	padding-right: 1%;
 }
 
 #the-graph>img {
 	display: block;
 	width: 102%;
-	margin-bottom: -2%;
+	margin-bottom: 1%;
 }
 
 #spacer {
 	border: .5px solid #EAF3FA;
 	background-color: #EAF3FA;
 	width: 102%;
+	margin-bottom: 0.5%;
+}
+
+.icon-container-inner>img {
+	width: 35px;
+    height: 35px;
+    display: flex;
+    margin: 0 auto;
 }
 
 #months {
@@ -239,22 +267,27 @@ img {
 }
 
 #years {
-	margin-left: 0;
-    margin-top: -1%;
-    font-size: 1em;
-    width: 100%;
-    display: block;
+	display: block;
+    height: 22px;
 }
 
 #time {
 	font-size: 98%;
-    margin: 0;
+    display: block;
+    font-size: 1em;
+    margin-top: 11%;
+}
+
+#elapsed {
+	display: block;
+	font-size: 1em;
+	margin: 0;
 }
 
 #special p {
 	display: block;
-	font-size: 1em;
-    margin-top: 1%;
+    font-size: 1em;
+    margin-top: 10%;
 }
 
 .lower-calendar {
@@ -277,23 +310,31 @@ img {
 #calendar-date-inner {
 	position: absolute;
     font-size: 26px;
-    top: 23%;
-    left: -2%;
+    top: 12px;
+    left: 1px;
 }
 	
 #date {
-	font-size: 10px;
-    margin-top: 0;
-    margin-left: 0;
+	font-size: 11px;
+    margin: 0 auto;
     position: relative;
     top: -1em;
-    width: 110%;
+    right: 11px;
+    width: 58px;
 }
 
 #lowest-p {
 	width: 145%;
-	font-size: 2%;
+    font-size: 10px;
     position: relative;
-    top: -2em;
-    left: -12px;
+    top: -4em;
+    left: -15px;
+}
+
+#left {
+	margin-left: 5%;
+}
+
+#right {
+
 }
