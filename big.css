@@ -33,7 +33,7 @@ img {
 .first {
 	display: flex;
     background-color: #EAF3FA;
-    box-shadow: 5px 5px 5px rgb(38, 38, 38);
+    box-shadow: 3px 3px 7px rgb(38, 38, 38);
     width: 98%;
     position: absolute;
     top: -155px;
@@ -45,7 +45,7 @@ img {
 .second {
 	background-color: #5C6477;
     position: relative;
-    box-shadow: 5px 5px 5px rgb(38, 38, 38);
+    box-shadow: 3px 3px 7px rgb(38, 38, 38);
     width: 96%;
     height: 38%;
     float: right;
@@ -60,7 +60,7 @@ img {
 .third {
 	display: flex;
 	background-color: #EAF3FA;
-	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	box-shadow: 3px 3px 7px rgb(38, 38, 38);
 	width: 98%;
 	float: left;
 	padding-top: 7%;
@@ -101,10 +101,14 @@ img {
     margin-left: 10px;
 }
 
+#top-number {
+	margin-top: 38px;
+}
+
 .second .number {
 	font-size: 50px;
 	color: #003557;
-	margin-top: 38%;
+	margin-top: 40px;
 	margin-left: 10%;
 }
 
@@ -167,7 +171,8 @@ img {
 #total-gross {
 	text-align: unset;
     display: inline-flex;
-    padding-top: 1%;
+    padding-top: 3%;
+    padding-left: 2%;
 }
 
 #total-billed {
