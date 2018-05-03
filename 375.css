@@ -138,18 +138,6 @@
 	padding: 0 0 0 1%;
 }
 
-#number-active {
-
-}
-
-#number-ongoing {
-
-}
-
-#gross {
-
-}
-
 .icon-container-inner {
 	height: 72%;
 }
@@ -247,10 +235,6 @@
     margin: 0 auto;
 }
 
-#months {
-
-}
-
 .fourth .number {
 	color: #EAF3FA;
 }
@@ -307,7 +291,7 @@
     height: 50px;
 }
 
-#calendar-date-inner {
+.calendar-date-inner {
 	position: absolute;
     font-size: 26px;
     top: 12px;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript" src="graphql.js"></script>
+	
 	<!-- <meta name="viewport" content="width=425, initial-scale=1"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/v1/775700/coderbunker-door-only-transparent_gueiif.png">
@@ -18,7 +18,7 @@
 		<!--Begin title Container-->
 		<div class="title-logo">
 			<img id="banner" src="images/banner.svg">
-			<p id="cb-sh">CoderBunker Shanghai</p>
+			<p id="cb-sh"></p>
 		</div>
 		<!--End title container-->
 
@@ -33,7 +33,7 @@
 				<div class="icon-containers" id="active-freelancers">
 					<div class="icon-container-inner">
 						<img id="freelancer" src="./images/blue_singleUser.svg"/>
-						<div class="number" id="number-active top-number">14</div>
+						<div class="number" id="number-active top-number"></div>
 					</div>
 					<p id="karl">Active freelancers</p>
 				</div>
@@ -41,7 +41,7 @@
 				<div class="icon-containers" id="ongoing-billable">
 					<div class="icon-container-inner">
 						<img id="chart" src="images/blue_chart.svg"/>
-						<div class="number" id="number-ongoing top-number">8</div>
+						<div class="number" id="number-ongoing top-number"></div>
 					</div>
 					<p id="karl">Ongoing projects with billable hours</p>
 				</div>
@@ -49,7 +49,7 @@
 				<div class="icon-containers" id="ongoing-gross">
 					<div class="icon-container-inner">
 						<img id="blue-yen" src="images/blue_yen.svg"/>
-						<div class="number" id="gross top-number">315,045</div>
+						<div class="number" id="gross top-number"></div>
 					</div>
 					<p id="karl">Ongoing projects gross</p>
 				</div>
@@ -61,7 +61,7 @@
 				<img id="gray-yen" src="images/gray_yen.svg"/>
 			</div>
 			<div id="small-container">
-				<div class="number" id="total-billed">1,896,000</div>
+				<div class="number" id="total-billed"></div>
 				<p id="tgp">Total Gross Billed(RMB)</p>
 			</div>
 		  </div>
@@ -79,7 +79,7 @@
 		  <div class="icon-containers" id="total-hours">
 		  	<div class="icon-container-inner">
 				<img src="images/blue_multiUser.svg">
-				<div class="number">50</div>
+				<div class="number" id="fbh"></div>
 			</div>
 			<p>Freelancers with billable hours</p>
 		  </div>
@@ -89,7 +89,7 @@
 		  <div class="icon-containers" id="total-projects">
 		  	<div class="icon-container-inner">
 			  	<img src="images/blue_chart.svg">
-			  	<div class="number">22</div>
+			  	<div class="number" id="tpbh"></div>
 		  	</div>
 			<p>Total of projects with billable hours</p>
 		  </div>
@@ -99,7 +99,7 @@
 		  <div class="icon-containers" id="total-months">
 		  	<div class="icon-container-inner">
 				<img src="images/blue_calendar:clock.svg">
-				<div class="number">56</div>
+				<div class="number" id="tem"></div>
 			</div>
 			<p>Total engineering months</p>
 		  </div>
@@ -111,25 +111,25 @@
 			<div class="icon-containers lower-calendar" id="left">
 				<div class="calendar-date">
 					<img id="calendar-date-outer" src="images/gray_calendar.svg"/>
-					<div class="number" id="calendar-date-inner">17</div>
+					<div class="number calendar-date-inner" id="since"></div>
 				</div>
-				<div class="number" id="date">2018-04-19</div>
+				<div class="number-date" id="fbhro"></div>
 				<p id="lowest-p">First billable hour recorded on</p>	
 			</div>
 			  <!--+=+=+=+=+=+=+=+=+-->
 			<div class="icon-containers" id="special">
 				<img id="clock" src="images/gray_clock.svg">
-				<div class="number" id="years">1 year 5 months 24 days</div>
-				<p class="number" id="time">04:00:00.00</p>
+				<div class="number" id="years"></div>
+				<p class="number" id="time"></p>
 				<p id="elapsed">Elapsed since first billable hour</p>
 			</div>
 			  <!--+=+=+=+=+=+=+=+=+-->
 			<div class="icon-containers lower-calendar" id="right">
 				<div class="calendar-date">
 					<img id="calendar-date-outer" src="images/gray_calendar.svg"/>
-					<div class="number" id="calendar-date-inner">10</div>
+					<div class="number calendar-date-inner" id="dlu-day"></div>
 				</div>
-				<div class="number" id="date">2018-04-19</div>
+				<div class="number-date" id="dlu-date"></div>
 				<p id="lowest-p">Data last updated</p>
 			</div>
 		</div>
@@ -137,6 +137,6 @@
 	</div>
 			
 			
-			
+<script type="text/javascript" src="graphql.js"></script>		
 </body>
 </html>

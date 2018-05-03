@@ -274,7 +274,7 @@ img {
     height: 50px;
 }
 
-#calendar-date-inner {
+.calendar-date-inner {
 	position: absolute;
     font-size: 26px;
     top: 23%;

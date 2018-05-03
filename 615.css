@@ -258,7 +258,7 @@ img {
 	margin-top: 0;
 	margin-left: 1.2em;
 }
-#calendar-date-inner {
+.calendar-date-inner {
 	position: absolute;
 	font-size: 53px;
 	top: 32%;

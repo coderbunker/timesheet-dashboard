@@ -63,6 +63,7 @@ img {
 	box-shadow: 3px 3px 7px rgb(38, 38, 38);
 	width: 98%;
 	float: left;
+	margin-left: 1%;
 	padding-top: 7%;
     margin-top: -7%;
     position: relative;
@@ -204,9 +205,6 @@ img {
 	height: 0.5px;
 }
 
-.fourth .number {
-	color: #EAF3FA;
-}
 
 #special {
 	width: 60%;
@@ -220,6 +218,7 @@ img {
 }
 
 #years {
+	color: #EAF3FA;
 	margin-left: 0;
     margin-top: 2%;
 	font-size: 35px;
@@ -259,12 +258,14 @@ img {
     left: 22.5%;
 }
 	
-#date {
+.number-date {
+	color: #EAF3FA;
 	font-size: 30px;
 	margin-top: 0;
 	margin-left: 0;
 }
-#calendar-date-inner {
+.calendar-date-inner {
+	color: #EAF3FA;
 	position: absolute;
 	font-size: 53px;
 	top: 32%;
