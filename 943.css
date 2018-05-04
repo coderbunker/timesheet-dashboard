@@ -254,10 +254,13 @@ img {
     top: 1.4em;
     /*left: 15%;*/
 }
-	
-#date {
+
+.number-date {
+	color: #EAF3FA;
 	font-size: 1.5em;
 	margin-top: 0;
 	margin-left: 0;
 }
+	
+
 

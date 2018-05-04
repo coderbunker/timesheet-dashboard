@@ -1,6 +1,8 @@
 //require('isomorphic-fetch');
 
-
+const numberWithCommas = (x) => {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 function formatDate(f) {
     var d = Date.parse(f);
@@ -63,20 +65,16 @@ fetch('http://data.coderbunker.com/graphql', {
             const dateDataLastUpdated = document.getElementById("dlu-date");
             const since = document.getElementById("since");
             const firstBillableHour = document.getElementById("fbhro");
-
-            console.log(data.since.substring(0, 10));
-            console.log(data.lastRefresh);
-            console.log(data.lastUpdate);
             
 
             title.innerText = data.orgname;
-            totalGrossBilled.innerText = data.totalGross;
+            totalGrossBilled.innerText = numberWithCommas(data.totalGross.replace(/(\.\d+)+/,''));
             freelancersBillableHours.innerText = data.peopleCount;
             projectsOngoing.innerText = data.ongoingProjectCount;
             totalEngMonths.innerText = data.totalEngMonths;
             totProjBillHours.innerText = data.projectCount;
-            years.innerText = data.activity.substr(0, 21);
-            time.innerText = data.activity.substr(21);
+            years.innerText = data.activity.substring(0, 21);
+            time.innerText = data.activity.substring(21, 33);
             since.innerText = data.since.substring(8, 10);
             firstBillableHour.innerText = data.since.substring(0, 10);
             dayDataLastUpdated.innerText = data.lastUpdate.substring(8, 10);
