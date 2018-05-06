@@ -73,7 +73,7 @@ img {
 .fourth {
 	display: flex;
 	background-color: #5C6477;
-	box-shadow: 5px 5px 5px rgb(38, 38, 38);
+	box-shadow: 3px 3px 7px rgb(38, 38, 38);
 	width: 98%;
 	float: right;
 	padding-top: 8%;
@@ -152,16 +152,62 @@ img {
 	position: relative;
 }
 
+#chart {
+	transition: height 600ms ease-in-out,
+				width 600ms ease-in-out,
+				margin-top 600ms ease-in-out;
+}
+
+#chart:hover {
+	margin-top: 5%;
+	width: 160px;
+	height: 160px;
+}
+
+#gray-yen {
+	transition: height 600ms ease,
+				width 600ms ease,
+				margin-top 600ms ease;
+
+}
+
+#yen-div:hover #gray-yen{
+	width: 160px;
+	height: 160px;
+	margin-top: 15%;
+}
+
+#multi-user {
+	transition: height 600ms ease,
+				width 600ms ease;
+}
+
+#multi-user:hover {
+	width: 160px;
+	height: 160px;
+}
+
+#cal-clock {
+	transition: height 600ms ease,
+				width 600ms ease;
+}
+
+#cal-clock:hover {
+	width: 160px;
+	height: 160px;
+}
+
+#calendar-date-outer {
+
+}
+
+
 #ongoing-billable,#ongoing-gross {
 	width: 40%;
 }
 
 #total-hours,#total-projects,#total-months {
 	width: 33%;
-}
-
-#yen-div {
-
 }
 
 #small-container {
@@ -182,10 +228,6 @@ img {
 
 #tgp {
     font-size: 20px;
-}
-
-#gray-yen {
-
 }
 
 #the-graph {
@@ -215,6 +257,12 @@ img {
 #clock {
 	width: 17.5%;
 	margin: 2% auto;
+	transition: width 600ms ease-in-out;
+}
+
+#clock:hover {
+	width: 22%;
+	margin: 2% auto;
 }
 
 #years {
@@ -243,7 +291,7 @@ img {
 
 .calendar-date {
 	width: 50%;
-	margin: 0 15%;
+	margin: 0;
 }
 
 #calendar-date-outer {
@@ -251,11 +299,28 @@ img {
 	width: 100%;
 }
 
-#calendar-date-inner {
-	position: absolute;
-	font-size: 60px;
-	top: 28.5%;
-    left: 22.5%;
+#since {
+	transition: top 600ms ease-in-out,
+				font-size 600ms ease-in-out,
+				left 600ms ease-in-out;
+}
+
+#left>.calendar-date:hover #since {
+	top: -150px;
+	font-size: 150px;
+	left: 150px;	
+}
+
+#dlu-day {
+	transition: top 600ms ease-in-out,
+				font-size 600ms ease-in-out,
+				left 600ms ease-in-out;
+}
+
+#right>.calendar-date:hover #dlu-day {
+	top: -150px;
+	font-size: 150px;
+	left: -200px;	
 }
 	
 .number-date {
@@ -267,7 +332,20 @@ img {
 .calendar-date-inner {
 	color: #EAF3FA;
 	position: absolute;
-	font-size: 53px;
-	top: 32%;
-	left: 18%;
+	font-size: 400%;
+    top: 30%;
+    left: 23%;
 }
+
+/*.footer {
+	background-color: #EAF3FA;
+	display: inline-block;
+	width: 100%;
+}
+
+#copy {
+	margin-left: 10%;
+	margin-top: 2%;
+	font-size: 20px;
+}*/
+	
